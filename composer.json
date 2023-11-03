@@ -27,18 +27,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Mikkimike\\OrchidRepeaterField\\": "src/"
+      "Nakukryskin\\OrchidRepeaterField\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Mikkimike\\OrchidRepeaterField\\Tests\\": "tests"
+      "Nakukryskin\\OrchidRepeaterField\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Mikkimike\\OrchidRepeaterField\\Providers\\ServiceProvider"
+        "Nakukryskin\\OrchidRepeaterField\\Providers\\ServiceProvider"
       ]
     }
   },
