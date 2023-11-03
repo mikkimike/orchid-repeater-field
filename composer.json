@@ -1,5 +1,5 @@
 {
-  "name": "nakukryskin/orchid-repeater-field",
+  "name": "mikkimike/orchid-repeater-field",
   "description": "Adding support of repeater field to the Orchid RAD platform.",
   "license": "wtfpl",
   "authors": [
@@ -27,18 +27,18 @@
   },
   "autoload": {
     "psr-4": {
-      "Nakukryskin\\OrchidRepeaterField\\": "src/"
+      "Mikkimike\\OrchidRepeaterField\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Nakukryskin\\OrchidRepeaterField\\Tests\\": "tests"
+      "Mikkimike\\OrchidRepeaterField\\Tests\\": "tests"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Nakukryskin\\OrchidRepeaterField\\Providers\\ServiceProvider"
+        "Mikkimike\\OrchidRepeaterField\\Providers\\ServiceProvider"
       ]
     }
   },
